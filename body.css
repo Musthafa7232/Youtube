@@ -1,0 +1,109 @@
+
+body{
+    padding-top: 90px;
+    padding-left:220px;
+}
+.video{
+    position: relative;
+    cursor: pointer;
+}
+
+.tag2
+{
+    position:absolute;
+    background-color: black;
+    color: white;
+    bottom: 158px;
+    right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+}
+
+
+.tag1{
+    position:absolute;
+    background-color: black;
+    color: white;
+    bottom: 131px;
+    right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+
+}
+
+
+
+
+.image{
+    width: 100%;
+    border-radius:11px;
+}
+
+.paragraph1{
+    margin-top: 10px;
+  margin-bottom:0px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    cursor: pointer;
+}
+
+.paragraph2,.paragraph3{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.paragraph2{
+    margin-top:5px;
+    margin-bottom:2px;
+    
+}
+
+.paragraph3{
+        margin-top:0px;
+    }
+
+.total{
+    display: grid;
+    grid-template-columns: 50px 1fr ;
+}
+
+.dp{
+  
+    margin-top: 10px;
+    margin-right: 6px;
+
+}
+
+.profile-pic{
+  width: 35px;
+  border-radius: 30px;
+  
+}
+
+.reference{
+   
+    width:200px;
+    vertical-align:top;
+}
+
+.a-grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap:40px;
+
+
+}

@@ -1,0 +1,79 @@
+.sidebar{
+    position: fixed;
+    top: 88px;
+    bottom:0;
+    left:0;
+    width: 190px;
+    background-color: white;
+    z-index: 999;
+    margin-left: 10px;
+   padding-right: 15px;
+}
+
+
+.sidebar-icons{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", "Arial", sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.sidebar-icon{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", "Arial", sans-serif;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+   
+}
+.sidebar-icons-{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family:  "Roboto", "Arial", sans-serif;;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.sidebar-icons-:hover{
+    background-color: rgba(225, 224, 224, 0.785);
+    
+}
+
+.sidebar-icons:hover{
+    background-color: rgba(225, 224, 224, 0.785);
+    
+}
+
+.sidebar-icon:hover{
+    background-color: rgba(225, 224, 224, 0.785);
+    
+}
+
+.icon-description{
+    height: 20px;
+    padding-left: 10px;
+  
+}
+.span{
+    padding-left: 11px;
+}
+
+.sign-in{
+    height: 50px;
+    font-family: "Roboto", "Arial", sans-serif;
+    padding-top: 25px;
+    line-height:25px;
+    vertical-align: middle;
+}
+
+.sign-icon{
+    padding-bottom: 25px;
+    padding-top: 10px;
+    vertical-align: middle;
+    height: 50px;
+}
